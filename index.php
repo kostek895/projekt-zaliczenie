@@ -1,51 +1,9 @@
-<?php include('include/header.php');?>
+﻿<?php include('include/header.php');?>
 <!-- main header end -->
-
-<!-- Sub banner start -->
-<div class="sub-banner overview-bgi">
-    <div class="container">
-        <div class="breadcrumb-area">
-            <h1>Properties Grid</h1>
-            <ul class="breadcrumbs">
-                <li><a href="index.html">Home</a></li>
-                <li class="active">Properties Grid</li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-- Sub banner end -->
 
 <!-- Properties list fullwidth start -->
 <div class="properties-list-fullwidth content-area-2">
     <div class="container">
-        <div class="option-bar d-none d-xl-block d-lg-block d-md-block d-sm-block">
-            <div class="row clearfix">
-                <div class="col-xl-4 col-lg-5 col-md-5 col-sm-5">
-                    <h4>
-                        <span class="heading-icon">
-                            <i class="fa fa-caret-right icon-design"></i>
-                            <i class="fa fa-th-large"></i>
-                        </span>
-                        <span class="heading">Properties Grid</span>
-                    </h4>
-                </div>
-                <!--<div class="col-xl-8 col-lg-7 col-md-7 col-sm-7">
-                    <div class="sorting-options clearfix">
-                        <a href="properties-list-fullwidth.html" class="change-view-btn"><i class="fa fa-th-list"></i></a>
-                        <a href="properties-grid-fullwidth.html" class="change-view-btn active-view-btn"><i class="fa fa-th-large"></i></a>
-                    </div>
-                    <div class="search-area">
-                        <select class="selectpicker search-fields" name="location">
-                            <option>High to Low</option>
-                            <option>Low to High</option>
-                        </select>
-                    </div>
-                </div>-->
-            </div>
-        </div>
-        <div class="subtitle">
-            20 Result Found
-        </div>
         <div class="row">
         <?php 
         include'include/config.php';
@@ -65,10 +23,10 @@ $img=$res['image'];
                 <div class="property-box">
                     <div class="property-thumbnail">
                         <a href="properties-details.html" class="property-img">
-                            <div class="tag button alt featured">Featured</div>
+                            <div class="tag button alt featured">Polecane</div>
                             <div class="price-ratings-box">
                                 <p class="price">
-                                    $ <?php echo $res['price'];?>
+                                    <?php echo $res['price'];?> zł
                                 </p>
                                 <div class="ratings">
                                     <i class="fa fa-star"></i>
@@ -106,16 +64,16 @@ $img=$res['image'];
                         </div>
                         <ul class="facilities-list clearfix">
                             <li>
-                                <i class="flaticon-bed"></i> <?php echo $res['bedroom'];?> : Bedroom
+                                <i class="flaticon-bed"></i> <?php echo $res['bedroom'];?> : Sypialnie
                             </li>
                             <li>
-                                <i class="flaticon-bath"></i> <?php echo $res['hall'];?> : Hall
+                                <i class="flaticon-bath"></i> <?php echo $res['hall'];?> : Łazienki
                             </li>
                             <li>
-                    <i class="flaticon-square-layouting-with-black-square-in-east-area"></i><?php echo $res['sqr_price'];?> Sq Ft
+                    <i class="flaticon-square-layouting-with-black-square-in-east-area"></i><?php echo $res['sqr_price'];?> m2
                             </li>
                             <li>
-                                <i class="fa fa-coffee"></i> <?php echo $res['kichan'];?> : kitchen
+                                <i class="fa fa-coffee"></i> <?php echo $res['kichan'];?> : Kuchnie
                             </li>
                         </ul>
                     </div>
@@ -124,7 +82,7 @@ $img=$res['image'];
                             <i class="fa fa-user"></i> <?php echo $u_name;?>
                         </a>
                         <span>
-                                <i class="fa fa-calendar-o"></i> 2 years ago
+                                <i class="fa fa-calendar-o"></i> 3 dni temu
                             </span>
                     </div>
                 </div>
