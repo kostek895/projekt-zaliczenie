@@ -34,9 +34,6 @@ $msg='<div class="alert alert-danger alert-dismissible">
     
     <section>
        
-       <!-- Left Sidebar -->
-<?php include('include/sidebar.php');?>
-        <!-- #END# Left Sidebar -->
         <section class="content">
         <div class="container-fluid">
             <?php echo @$msg;?>
