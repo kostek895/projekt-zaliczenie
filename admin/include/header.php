@@ -63,7 +63,7 @@
                 <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"></a>
                 <a href="javascript:void(0);" class="bars"></a>
                 
-                <a class="navbar-brand" href="dashboard.php"> Property Dealer Dashboard</a>
+                <a class="navbar-brand" href="dashboard.php">Dodawanie danych</a>
             </div>
                 <ul class="nav navbar-nav navbar-right">
                     <!-- Call Search -->
