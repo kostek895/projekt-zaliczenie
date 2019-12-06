@@ -3,5 +3,7 @@ $con=mysqli_connect('zaliczenie-kostka.mysql.database.azure.com','kostka@zalicze
 if ($con -> connect_errno) {
   echo "Failed to connect to MySQL: " . $con -> connect_error;
   exit();
+} else {
+	echo "Wszystko git";
 }
 ?>
